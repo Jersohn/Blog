@@ -1,0 +1,35 @@
+.navbar {
+	background-color:#dfe0e2;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+	position: fixed;
+	
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-bottom: 10px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+	color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.nav-link:active {
+	color: #ff8000;
+}
+
+.heading {
+	font-family: Bitter, Georgia, "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #3bb186d7;
+}
+
+.page-link {
+	color: #ff8000;
+}
+.page-item.active .page-link {
+	background-color: #ff8000;
+	color: #fff;
+	border-color: #ff8000;
+}
